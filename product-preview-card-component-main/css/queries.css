@@ -1,0 +1,18 @@
+@media (max-width: 34em) {
+    section {
+        grid-template-columns: 26.7rem;
+        grid-template-rows: 17.1rem 1fr;
+    }
+
+    .img {
+        background-image: url(../images/image-product-mobile.jpg);
+        background-size: cover;
+        border-radius: 9px 9px 0 0;
+    }
+
+    .container {
+        width: 26.7rem;
+        margin: 5rem auto;
+        
+    }
+}

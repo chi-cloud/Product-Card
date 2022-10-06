@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 60.5%;
+}
+
+body {
+    font-family: Montserrat, inter;
+    font-weight: 500;
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 26.7rem 26.7rem;
+height: 40rem;
+border-radius: 10px;
+}
+
+.img {
+    background-image: url(../images/image-product-desktop.jpg);
+    background-size: cover;
+    border-radius: 9px 0 0 9px;
+}
+
+.container {
+    width: 53.4rem;
+    margin: 10rem auto;
+    
+}
+
+.product-details {
+    padding: 4rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 0 9px 9px 0;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.header-primary {
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 2px;
+}
+
+
+.header-secondary {
+    font-family: Fraunces, inter;
+font-weight: 700;
+color: hsl(212, 21%, 14%);
+font-size: 3rem;
+line-height: 1;
+}
+
+.para {
+font-size: 1.2rem;
+color: hsl(228, 12%, 48%);
+line-height: 1.2;
+}
+
+.product-price {
+    font-family: Fraunces, inter;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    font-size: 3rem;
+}
+
+.product-price--small {
+    color: hsl(228, 12%, 48%);
+}
+
+.product-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    background: hsl(158, 36%, 37%);
+    width: 18.7rem;
+    height: 4rem;
+    border-radius: 6px;
+    color: hsl(0, 0%, 100%);
+}
+
+.flex-help {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
