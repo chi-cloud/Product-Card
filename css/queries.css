@@ -15,4 +15,13 @@
         margin: 5rem auto;
         
     }
+
+    .product-details {
+        padding: 4rem;
+        background: hsl(0, 0%, 100%);
+        border-radius: 0 0px 9px 9px;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+    }
 }
